@@ -59,6 +59,6 @@ int main(){
     char str[100];
     printf("Enter infix expression:");
     gets(str);
-    printf("Postfix Expression : %s",conversion(str));
+    printf("Prefix Expression : %s",strrev(conversion(str)));
     return 0;
 }
