@@ -155,9 +155,8 @@ int main(){
         printf("5.Delete Node from End\n");
         printf("6.Delete Node from any position\n");
         printf("7.Search elemnet in list\n");
-        printf("8.Sort elements\n");
-        printf("9.Display elements\n");
-        printf("10.Exit\n\n");
+        printf("8.Display elements\n");
+        printf("9.Exit\n\n");
         int choice,value,pos;
         printf("Enter choice:");
         scanf("%d",&choice);
@@ -196,12 +195,9 @@ int main(){
                 search(value);
                 break;
             case 8:
-                //sort();
-                break;
-            case 9:
                 display();
                 break;
-            case 10:
+            case 9:
                 exit(0);
             default:
                 printf("Invalid choice!!!!\n");
