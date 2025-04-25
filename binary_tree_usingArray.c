@@ -106,9 +106,10 @@ int main(){
 
         }
     }
-    
-    
-    
+    printf("\n Preorder:");
+    preorder(0);
+    printf("\n Inorder:");
+    inorder(0);
     printf("\n Postorder:");
     postorder(0);
     return 0;
