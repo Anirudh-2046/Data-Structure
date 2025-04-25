@@ -105,12 +105,7 @@ int main(){
                 printf("Invalid choice!!\n");
 
         }
+        printf("\n");
     }
-    printf("\n Preorder:");
-    preorder(0);
-    printf("\n Inorder:");
-    inorder(0);
-    printf("\n Postorder:");
-    postorder(0);
     return 0;
 }
